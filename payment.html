@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment - Shine Jewel</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <header>
+        <div class="man">
+            <img class="logo" src="download (1).png" alt="">
+            <nav class="menu">
+                <a href="melody.html">home</a>
+                <a href="buy.html">shop</a>
+                <a href="melody.html#categories">categories</a>
+                <a href="about.html">about</a>
+                <a class="contactus" href="contact.html">contact us</a>
+            </nav>
+        </div>
+    </header>
+    <section class="payment">
+        <h2>Payment Details</h2>
+        <div id="order-summary">
+            <h3>Order Summary</h3>
+            <p id="total-amount">Total: $0.00</p>
+        </div>
+        <form id="payment-form">
+            <div class="form-group">
+                <label for="card-name">Name on Card</label>
+                <input type="text" id="card-name" required>
+            </div>
+            <div class="form-group">
+                <label for="card-number">Card Number</label>
+                <input type="text" id="card-number" placeholder="1234 5678 9012 3456" required>
+            </div>
+            <div class="form-group">
+                <label for="expiry">Expiry Date</label>
+                <input type="text" id="expiry" placeholder="MM/YY" required>
+            </div>
+            <div class="form-group">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" placeholder="123" required>
+            </div>
+            <button type="submit" class="btn-submit">Complete Payment</button>
+        </form>
+    </section>
+    <script src="payment.js"></script>
+</body>
+</html>

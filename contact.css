@@ -1,0 +1,155 @@
+/* Navbar Styles */
+header {
+    background-color: #e91e63;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.man {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #c2185b;
+}
+
+.contactus {
+    background: #fff;
+    color: #e91e63;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.contactus:hover {
+    background: #f8bbd9;
+}
+
+/* Page Title */
+.page-title {
+    background: #ffeede;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.page-title h2 {
+    color: #333;
+    font-weight: 600;
+    font-size: 2.5em;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.contact-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #f8f9fd;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    overflow: hidden;
+}
+
+.contact-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+.contact-image img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.contact-form {
+    flex: 1;
+    padding: 40px;
+}
+
+.contact-form h3 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.btn-contact {
+    width: 100%;
+    padding: 12px;
+    background: #e91e63;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.btn-contact:hover {
+    background: #c2185b;
+}
+
+/* Contact Info */
+.contact-info {
+    padding: 40px 0;
+    background: #ffeede;
+    text-align: center;
+}
+
+.contact-info h3 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.contact-info p {
+    color: #666;
+    margin: 10px 0;
+    font-size: 16px;
+}
